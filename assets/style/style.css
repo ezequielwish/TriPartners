@@ -2,7 +2,22 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    scrollbar-width: thin;
+    scrollbar-color: transparent rgba(0, 0, 239, 0.526);
 }
+
+*::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+*::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgba(95, 156, 247, 0.108);
+    border-radius: 20px;
+  }
 
 body {
     background-color: #0c1633;
@@ -88,10 +103,6 @@ body {
     align-items: center;
     gap: 3vw;
     overflow-x: scroll;
-}
-
-.card-container::-webkit-scrollbar {
-    scrollbar-color: black;
 }
 
 .card {
