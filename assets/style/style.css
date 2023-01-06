@@ -75,7 +75,7 @@ body {
 }
 
 .info {
-    padding: 3vw;
+    padding-bottom: 3vw;
     margin: 0 10vw;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
