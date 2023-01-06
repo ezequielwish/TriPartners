@@ -29,7 +29,7 @@ body {
     gap: 20px;
 }
 
-.cabecalho {
+.head {
     background-image: linear-gradient(to bottom, rgb(18, 0, 78) 90%, rgba(0, 0, 239, 0.526));
     display: flex;
     flex-direction: column;
@@ -45,12 +45,7 @@ body {
     height: 160px;
 }
 
-.main {
-    display: flex;
-    flex-direction: column;
-}
-
-.navegacao {
+.navigation-menu {
     display: flex;
     flex-direction: row;
     gap: 16px;
@@ -58,22 +53,20 @@ body {
 }
 
 .nav-item {
-    transition-duration: .2
-    s;
     text-decoration: none;
     color:#6221d3;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 6px;
     padding: 0 5px;
+    border-bottom: 2px solid transparent;
 }
 
 .nav-item:hover{
-    border-bottom: 2px solid aqua;
-    padding-bottom: 2px;
+    border-bottom: 2px solid #00ffff;
     color: white;
 }
 
-.principal{
+.content{
     background-image: linear-gradient(to right, transparent, rgba(95, 237, 247, 0.1), transparent);
     min-height: 70vh;
     width: 100%;
@@ -81,7 +74,7 @@ body {
     padding: 5vh 2vw;
 }
 
-.apresentacao {
+.info {
     padding: 3vw;
     margin: 0 10vw;
     text-align: center;
@@ -96,14 +89,14 @@ body {
     mix-blend-mode: exclusion;
 }
 
-.projetos {
+.projects-container {
     background-image: linear-gradient(to right, transparent, rgba(98, 33, 211, 0.2), transparent);
     color: white;
     text-align: center;
     padding: 2vh;
 }
 
-.card-container {
+.projects-wheel {
     display: flex;
     flex-direction: row;
     padding: 3vw;
@@ -113,7 +106,7 @@ body {
     overflow-x: scroll;
 }
 
-.card {
+.project-card {
     display: flex;
     flex-direction: column;
     background-color: rgba(255, 255, 255, 0.1);
@@ -124,13 +117,13 @@ body {
 
 footer{
     color: rgba(255, 255, 255, 0.377);
-        background-image: linear-gradient(to top, rgb(18, 0, 78) 90%, rgba(0, 0, 239, 0.526));
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        width: 100%;
-        height: 10vh;
-        border-top-left-radius: 50%;
-        border-top-right-radius: 50%;
+    background-image: linear-gradient(to top, transparent 70%, rgba(0, 0, 239, 0.526));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
 }
