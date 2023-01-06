@@ -75,9 +75,10 @@ body {
 
 .principal{
     background-image: linear-gradient(to right, transparent, rgba(95, 237, 247, 0.1), transparent);
-    min-height: 65vh;
+    min-height: 70vh;
     width: 100%;
     border-radius: 10%;
+    padding: 5vh 2vw;
 }
 
 .apresentacao {
@@ -88,8 +89,15 @@ body {
     color: white;
 }
 
+.big-logo {
+    max-height: 400px;
+    max-width: 400px;
+    margin: 20px 0;
+    mix-blend-mode: exclusion;
+}
+
 .projetos {
-    background-color: rgba(98, 33, 211, 0.1);
+    background-image: linear-gradient(to right, transparent, rgba(98, 33, 211, 0.2), transparent);
     color: white;
     text-align: center;
     padding: 2vh;
