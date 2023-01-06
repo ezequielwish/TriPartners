@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #0c1633;
+    background-image: linear-gradient(rgb(18, 0, 78) 15%, #0c1633 85%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cabecalho {
+    background-image: linear-gradient(to bottom, rgb(18, 0, 78) 90%, rgba(0, 0, 239, 0.526));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 26vh;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.logo {
+    height: 160px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.navegacao {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: flex-end;
+}
+
+.nav-item {
+    transition-duration: .2
+    s;
+    text-decoration: none;
+    color:#6221d3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 6px;
+    padding: 0 5px;
+}
+
+.nav-item:hover{
+    border-bottom: 2px solid aqua;
+    padding-bottom: 2px;
+    color: white;
+}
+
+.principal{
+    background-image: linear-gradient(to right, transparent, rgba(95, 237, 247, 0.1), transparent);
+    min-height: 65vh;
+    width: 100%;
+    border-radius: 10%;
+}
+
+.apresentacao {
+    padding: 3vw;
+    margin: 0 10vw;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.projetos {
+    background-color: rgba(98, 33, 211, 0.1);
+    color: white;
+    text-align: center;
+    padding: 2vh;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    padding: 3vw;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3vw;
+    overflow-x: scroll;
+}
+
+.card-container::-webkit-scrollbar {
+    scrollbar-color: black;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.1);
+    min-height: 300px;
+    min-width: 300px;
+    border-radius: 12px;
+}
+
+footer{
+    color: rgba(255, 255, 255, 0.377);
+        background-image: linear-gradient(to top, rgb(18, 0, 78) 90%, rgba(0, 0, 239, 0.526));
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 10vh;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+}
